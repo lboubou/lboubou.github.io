@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<title>{{ site.Titresite }}</title>
+</head>
+<body>
+	<nav>
+		{% include menu.html %}
+	</nav>
+		{% include header.html %}
+	<main>
+		{{content}}
+	</main>
+		{% include footer.html %}
+</body>
+</html>
